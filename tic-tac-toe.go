@@ -25,7 +25,6 @@ func (game *Game) play() {
 		game.board.state[input-1] = getPlayerString(game.currentPlayer)
 
 		// display the current game state and the position just inserted
-
 		game.displayGameState()
 
 		fmt.Printf("Player %d played position %d\n", game.currentPlayer, input)
